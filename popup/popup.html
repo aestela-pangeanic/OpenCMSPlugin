@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+	<head>
+	  	<meta charset="UTF-8">
+	    <title>IADAAPTA</title>
+	    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+	    <link rel="stylesheet" href="css.css">
+	    
+	    <script src="jquery-3.3.1.min.js"></script>
+
+	    
+		<script src="plugin.js"></script>
+		<script src="session.js"></script>
+		<script src="settings.js"></script>
+
+		<script src="ui.js"></script>
+		<script src="settingsUi.js"></script>
+		<script src="spinnerUi.js"></script>
+
+	    <script src="popup.js"></script>
+
+	</head>
+	<body>
+
+  	<div id="win">
+		<div id="logo-plugin">T</div>
+  		<h1>iADAATPA<span> OpenCms Translator</span></h1>
+  		<div id="sectionsViewPort">
+	  		<div id="sections">
+	  			<section id="translationSection">
+		  			<p>The plugin is ready to use</p>
+		  		
+		  					
+		  			<!--<p>
+		  				<select id="sourceLanguage">
+		  					<option value="auto">Auto</option>
+		  					<option value="en">Inglés</option>
+		  					<option value="fr">Francés</option>
+		  					<option value="fr">Koko</option>
+		  				</select>
+		  			</p>-->
+		  			<footer><a id="openSettings" href>Settings</a></footer>
+		  		</section> 
+		  		<section id="settingsSection">  			
+		  			<h2>Settings</h2>
+		  			<a href id="back"><i class="fa fa-chevron-left"></i>back</a>
+		  			<fieldset>
+		  				<div id="notification"></div>
+		  							
+		  				<div class="labelWrapper"><label for="accessPointUri">Access point</label></div>
+		  				<div class="inputWrapper"><span id="http">https://</span><input type="text" value="" id="accessPointUri"></div>
+
+						<div class="labelWrapper"><label for="api-key">API key:</label></div>
+		  				<div class="inputWrapper"><input type="password" value="" id="apiKey"><a id="toggleApiKey" href><i class="fa fa-eye"></i></a></div>  
+
+		  				<div class="saveWrapper"><input type="submit" value="Save" id="save"></div>
+		  			</fieldset>
+		  			<a id="restore" href>Restore</a>
+
+		  		</section>	  
+	  		</div>
+  		</div>
+
+
+  			
+  	</div>  
+  	<div style="height:50px; border-top: solid 1px #D1D1D1">
+  		<img src="logo-ce-horizontal-en-nb-hr.jpg" width="300px" style="display: block; margin-left:25px; margin-top:25px; margin-bottom:25px">
+ 
+  	</div>  
+  </body>
+</html>
+
